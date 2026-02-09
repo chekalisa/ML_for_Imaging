@@ -4,3 +4,9 @@ env/
 
 virtualenv/
 .virtualenv
+
+data/
+.data/
+
+output/
+.output/

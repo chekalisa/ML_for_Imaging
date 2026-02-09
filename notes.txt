@@ -1,0 +1,40 @@
+1.118040680885315
+
+v2.functional.gaussian_noise(inpt[, mean, ...])
+
+v2.functional.gaussian_blur(inpt, kernel_size)
+
+v2.GaussianBlur(kernel_size[, sigma])
+
+v2.functional.vertical_flip(inpt)
+
+v2.RandomCrop(size[, padding, ...])
+
+ 1.0162482261657715
+
+
+After Part A is done:
+    val_auc            0.8230335712432861
+        val_loss            0.9988945722579956
+
+
+PartB LeNET:
+   val_auc            0.8332706093788147
+        val_loss            0.9740522503852844
+
+AlexNet:
+
+      val_auc            0.8792929649353027
+        val_loss            0.8816537857055664
+
+ResNet:
+  val_auc            0.9240739345550537
+        val_loss            0.5740153789520264
+
+GoogleLeNet:
+val_auc            0.9191032648086548
+        val_loss            0.7252408862113953
+
+SqueezeNet:
+val_auc            0.8999052047729492
+        val_loss            0.7830920219421387
