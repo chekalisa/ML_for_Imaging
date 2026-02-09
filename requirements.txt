@@ -1,0 +1,15 @@
+torch
+torchvision
+pytorch-lightning
+numpy
+pandas
+opencv-python
+matplotlib
+plotly
+seaborn
+scikit-learn
+scikit-image
+torchmetrics
+ipywidgets
+stocaching
+torchsampler
