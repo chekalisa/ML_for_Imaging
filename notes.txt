@@ -38,3 +38,31 @@ val_auc            0.9191032648086548
 SqueezeNet:
 val_auc            0.8999052047729492
         val_loss            0.7830920219421387
+
+Own implementation of ResNet (after epoch0; 19):
+val_auc             0.860666036605835
+        val_loss            0.8847926259040833
+
+5 epochs:
+val_auc            0.9094974994659424
+        val_loss            0.6875401139259338
+
+20 epochs:
+
+  val_auc            0.9094974994659424
+        val_loss            0.6875401139259338
+
+With pre-trained ResNet, increasing the number of epochs did not improve (did not find this)
+
+tutorial resnet (30)
+
+val_auc            0.9216341972351074
+        val_loss            0.5862911343574524
+
+Resnet pretrained (32) :
+   val_auc            0.9240739345550537
+        val_loss            0.5740153789520264
+
+       test_auc            0.9172621965408325
+        test_loss           0.5972970724105835
+
