@@ -66,3 +66,27 @@ Resnet pretrained (32) :
        test_auc            0.9172621965408325
         test_loss           0.5972970724105835
 
+30 epochs resnet (34):
+97 min 52 secs
+
+
+Restoring states from the checkpoint path at ./output/mammo-net/version_34/checkpoints/epoch=1-step=166.ckpt
+Loaded model weights from the checkpoint at ./output/mammo-net/version_34/checkpoints/epoch=1-step=166.ckpt
+Validation DataLoader 0: 100%
+ 10/10 [00:07<00:00,  1.27it/s]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+     Validate metric           DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+         val_auc            0.9240739345550537
+        val_loss            0.5740153789520264
+
+Restoring states from the checkpoint path at ./output/mammo-net/version_34/checkpoints/epoch=1-step=166.ckpt
+Loaded model weights from the checkpoint at ./output/mammo-net/version_34/checkpoints/epoch=1-step=166.ckpt
+Testing DataLoader 0: 100%
+ 23/23 [00:18<00:00,  1.26it/s]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        test_auc            0.9172621965408325
+        test_loss           0.5972970724105835
+──────────────────────────────────────────────────────
