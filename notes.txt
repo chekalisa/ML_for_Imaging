@@ -90,3 +90,41 @@ Testing DataLoader 0: 100%
         test_auc            0.9172621965408325
         test_loss           0.5972970724105835
 ──────────────────────────────────────────────────────
+
+30 epochs alexnet (35):
+60 mins
+
+Restoring states from the checkpoint path at ./output/mammo-net/version_35/checkpoints/epoch=21-step=1826.ckpt
+Loaded model weights from the checkpoint at ./output/mammo-net/version_35/checkpoints/epoch=21-step=1826.ckpt
+/home/haiwei/imperial/mli/ML_for_Imaging/virtualenv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:434: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=21` in the `DataLoader` to improve performance.
+Validation DataLoader 0: 100%
+ 10/10 [00:03<00:00,  2.93it/s]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+     Validate metric           DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+         val_auc            0.9060981869697571
+        val_loss            0.6930990219116211
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        test_auc            0.8969289660453796
+        test_loss           0.7198582887649536
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+30 epochs googlenet (37)
+Restoring states from the checkpoint path at ./output/mammo-net/version_37/checkpoints/epoch=4-step=415.ckpt
+Loaded model weights from the checkpoint at ./output/mammo-net/version_37/checkpoints/epoch=4-step=415.ckpt
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+     Validate metric           DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+         val_auc            0.9278167486190796
+        val_loss            0.6255825757980347
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        test_auc            0.9163650274276733
+        test_loss            0.677710771560669
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
